@@ -291,3 +291,49 @@ rotation_y_plus=0;
 Toleh=false;
 }
 break;
+case GLUT_KEY_F2://speed ke-2
+if(speed2 == false)
+{
+rotation_y_plus=30*direction;
+speed1=false;
+pressplus1=0;
+speed2=true;
+pressplus2=180;
+speed3=false;
+pressplus3=0;
+speed4=false;
+pressplus4=0;
+if(Tolehpress == true)
+Toleh=true;
+}
+else
+{
+speed2=false;
+pressplus2=0;
+rotation_y_plus=0;
+Toleh=false;
+}
+break;
+case GLUT_KEY_F3://speed ke-3
+if(speed3 == false)
+{
+rotation_y_plus=45*direction;
+speed1=false;
+pressplus1=0;
+speed2=false;
+pressplus2=0;
+speed3=true;
+pressplus3=180;
+speed4=false;
+pressplus4=0;
+if(Tolehpress == true)
+Toleh=true;
+}
+else
+{
+speed3=false;
+pressplus3=0;
+rotation_y_plus=0;
+Toleh=false;
+}
+break;
