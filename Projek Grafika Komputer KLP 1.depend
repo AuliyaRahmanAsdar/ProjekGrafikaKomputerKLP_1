@@ -207,8 +207,10 @@
 1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
 	<objfwd.h>
 
-1426320928 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
-	"freeglut_std.h"
+881782880 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
 
 1426320928 c:\program files (x86)\codeblocks\mingw\include\gl\freeglut_std.h
 	<windows.h>
@@ -226,4 +228,8 @@
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
+
+1640728002 source:c:\users\auliy\desktop\projekgrafikakomputerklp_1\main.cpp
+	<windows.h>
+	<GL/glut.h>
 
