@@ -408,7 +408,7 @@ glutInit(&argc,argv);
 glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
 glutInitWindowSize(screen_width,screen_height);
 glutInitWindowPosition(0,0);
-glutCreateWindow("Kelompok 1 GrafKom");
+glutCreateWindow("Kelompok 1 Grafika Komputer");
 glutDisplayFunc(display);
 glutIdleFunc(display);
 glutReshapeFunc(resize);
