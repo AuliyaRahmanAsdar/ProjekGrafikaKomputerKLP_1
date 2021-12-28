@@ -408,7 +408,7 @@ glutInit(&argc,argv);
 glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGB|GLUT_DEPTH);
 glutInitWindowSize(screen_width,screen_height);
 glutInitWindowPosition(0,0);
-glutCreateWindow("KAMPRET 32");
+glutCreateWindow("Kelompok 1 GrafKom");
 glutDisplayFunc(display);
 glutIdleFunc(display);
 glutReshapeFunc(resize);
