@@ -5,7 +5,7 @@
 void cylinder(float rbase,float rtop,float height);
 void blok(float tebal,int ratiol,int ratiop);
 void bilah (float r_inner,float r_outer,float tebal,int batang);
-//atur layar
+//atur layarnya
 int screen_width=500;//mengatur lebar screen
 int screen_height=600;//mengatur tinggi screen
 int button_up=0,button_down=0;
