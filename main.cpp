@@ -392,7 +392,7 @@ break;
 }
 }
 
-// interaksi melalui mouse
+// interaksi melalui mouse fauzan
 void Mouse_s(int button, int state, int x, int y)
 {
 if (state==0 && button==0)
